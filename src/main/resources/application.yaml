@@ -1,0 +1,13 @@
+bsg:
+  config:
+    path: /mnt/secrets/erp-integrator
+spring:
+  main:
+    banner:
+      location: classpath:banner.txt
+    allow-bean-definition-overriding: true
+
+springdoc:
+  api-docs:
+    path: /api-docs
+
